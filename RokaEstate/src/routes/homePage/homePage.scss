@@ -2,6 +2,7 @@
 .homePage {
   display: flex;
   height: 100%;
+  width: 100%;
 
   .textContainer {
     flex: 3;
@@ -27,14 +28,13 @@
         font-size: 64px;
 
         @include lg{
-          font-size: 40px;
+          font-size: 48px;
           
         }
     }
 
     .boxes{
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
 
         @include sm{
