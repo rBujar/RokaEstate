@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import SinglePage from "./routes/singlePage/singlePage";
 import Login from "./routes/loginPage/login";
+import ProfilePage from "./routes/profilePage/profilePage";
 
 function App() {
 
@@ -29,8 +30,8 @@ function App() {
           element:<SinglePage/>
         },
         {
-          path: "/login",
-          element:<Login/>
+          path: "/profile",
+          element:<ProfilePage/>
         }
 
       ]
